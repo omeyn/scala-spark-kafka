@@ -35,19 +35,22 @@
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_2.10</artifactId>
       <version>${spark.version}</version>
-      <!--<scope>provided</scope>-->
+      <!-- remove this to run within IDE -->
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_2.10</artifactId>
       <version>${spark.version}</version>
-      <!--<scope>provided</scope>-->
+      <!-- remove this to run within IDE -->
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-hive_2.10</artifactId>
       <version>${spark.version}</version>
-      <!--<scope>provided</scope>-->
+      <!-- remove this to run within IDE -->
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
@@ -103,11 +106,6 @@
     <dependency>
       <groupId>io.confluent</groupId>
       <artifactId>common-config</artifactId>
-      <version>${confluent.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>io.confluent</groupId>
-      <artifactId>common</artifactId>
       <version>${confluent.version}</version>
     </dependency>
 
